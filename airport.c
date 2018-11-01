@@ -108,9 +108,10 @@ char* airportToString(const Airport* a){
     char *str = (char *)malloc(sizeof(char) * n);
 
     // format the student into the temporary string
-    sprintf(str, "%s, %s, %s, %lf, %lf,%d, %s,%s)", strlen(a->gpsId) ,
-             strlen(a->type),  (strlena->name),
-          latitude, longitude, elevationFeet,strlen(a->city),strlen(a->countryAbbrv) ;
+    sprintf(str, "%s, %s, %s, %lf, %lf,%d, %s,%s", strlen(a->gpsId) ,
+             strlen(a->type),  strlen(a->name),
+          latitude, longitude, elevationFeet,
+          strlen(a->city),strlen(a->countryAbbrv);
 
     // return the result
     return str;
