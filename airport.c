@@ -98,6 +98,7 @@ char* airportToString(const Airport* a){
 }
 
 
+<<<<<<< HEAD
     if (a == NULL) {
       char *result = (char *)malloc(sizeof(char) * 7);
       strcpy(result, "(null)");
@@ -147,6 +148,7 @@ double getAirDistance(const Airport* origin, const Airport* destination){
 	
 	return acos(sin(originLatitude) * sin(destinationLatitude) + cos(originLatitude) * cos(destinationLatitude) * cos(destinationLongitude - originLongitude)) * 6371;
 }
+
 
 
 
